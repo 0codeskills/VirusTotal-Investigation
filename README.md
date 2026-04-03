@@ -64,6 +64,14 @@ Our invenstigation will focus on file hashes.
 
 <img width="851" height="625" alt="image" src="https://github.com/user-attachments/assets/0da842fc-e4f5-400d-93b1-8664f413ab6d" />
 
+First file has we will investigate is ```60517f898bfac156cd298fd0a45f2e06cecee232a54667213458b99dc8d80de7 ```. Search result page shows a summary at the top which already includes really useful information.
+
+<img width="743" height="196" alt="image" src="https://github.com/user-attachments/assets/9919f4bc-2780-4ad5-86a4-33c7f90d03e7" />
+
+Community Score - show malicious detection rate from different virus scanners
+Top section shows known-distributor of the file, in this case it is ```Microsoft```.
+Middle section includes ```hash```, ```file name``` and ```associated tags``` for the file
+
 
 
 #### **Findings**
