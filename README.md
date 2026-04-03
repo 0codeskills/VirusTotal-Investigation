@@ -58,10 +58,11 @@ Linux distributions come with specific tools for each algorithm.
 
 #### **VirusTotal investigation**
 
-Throught the investigation I will be using  different file hashes, some of them will appear malicious and some benign.
+Throughout the investigation I will be using  different file hashes, some of them will appear malicious and some benign.
 First Let's go to <a href="https://www.virustotal.com/gui/home/search">VirusTotal</a> page where we can see few options to select from. You can upload a file, paste a URL or search for IP address, domain or file hash.
 Our invenstigation will focus on file hashes.
 
+<img width="851" height="625" alt="image" src="https://github.com/user-attachments/assets/0da842fc-e4f5-400d-93b1-8664f413ab6d" />
 
 
 
