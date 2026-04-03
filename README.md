@@ -38,6 +38,9 @@ Windows has a built-in utility called ```Get-FileHash```. You don't need to inst
 1. Open PowerShell (search for it in the Start menu).
 
 2. Type the following command (replace ``` C:\path\to\yourfile.exe ``` with the actual path):
+   ```
+   Get-FileHash C:\path\to\yourfile.exe -Algorithm SHA256
+   ```
 
 #### VirusTotal investigation
 
