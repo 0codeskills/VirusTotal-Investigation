@@ -49,9 +49,15 @@ Linux distributions come with specific tools for each algorithm.
 1. Open your Terminal.
 
 2. Run the command corresponding to the algorithm you want:
-   ```SHA-256: sha256sum filename.ext```
-   ```MD5: md5sum filename.ext```
-   ```SHA-1: sha1sum filename.ext```
+   ```
+   SHA-256: sha256sum filename.ext
+   ```
+   ```
+   MD5: md5sum filename.ext
+   ```
+   ```
+   SHA-1: sha1sum filename.ext
+   ```
 
 #### VirusTotal investigation
 
