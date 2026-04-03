@@ -79,5 +79,15 @@ Right side of the summary header shows information like:
 - Last Analysis date
 - Extension type of the file
 
+Under summary header we can find few tabs which include the real data we are interested in:
+
+- Detection
+- Details
+- Relations
+- Behavior
+- Community
+
+<img width="630" height="58" alt="image" src="https://github.com/user-attachments/assets/ed1c0ea5-c692-4005-bfc5-f124869e32d7" />
+
 
 #### **Findings**
