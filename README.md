@@ -105,4 +105,12 @@ We will investigate a list of file hashes:
 
 ```a50bcbf0ef744f6b7780685cfd2f41a13be4c921d4b401384efd85c6109d7c00```
 
+
+VirusTotal shows that file hash ```a50bcbf0ef744f6b7780685cfd2f41a13be4c921d4b401384efd85c6109d7c00``` has been flagged as malicious by 43 out of 70 vendors. Name of the file is ```meta.dll``` and it matches YARA rule - INDICATOR_EXE_DotNET_Encrypted
+Looking further we can see that it has been labelled as  ```trojan.msil/stealer``` also known as Information Stealing malware, which can steal passwords from computer or browser.
+In Details tab we can check that the file type is executable and that the size of the file in 63.72MB. 
+One of the file names that has been flagged is malware.exe which clearly indicated it is malicious.
+In the Community tab section ```Contained in Collections``` or ```Contained in Graphs``` we can see association with known threat actor JuiceLedger.
+
+
 #### **Findings**
