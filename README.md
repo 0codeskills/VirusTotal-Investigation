@@ -99,12 +99,13 @@ Importatnst sections in the Details tab are:
 #### **VirusTotal investigation**
 We will investigate a list of file hashes:
 
-1. File hash - ```4788925332fc6128c895b0e0736a1d7d90e3891f2abb456523cbf0c1ced7d1e2```
+```4788925332fc6128c895b0e0736a1d7d90e3891f2abb456523cbf0c1ced7d1e2```
 
-2. File hash - ```549ff37e56d372d076a3d11cd33af660568dc1048b1f4ecce77d8b334582c6c8```
+-------
+```549ff37e56d372d076a3d11cd33af660568dc1048b1f4ecce77d8b334582c6c8```
 
 ------
-<ins>File hash</ins> - ```a50bcbf0ef744f6b7780685cfd2f41a13be4c921d4b401384efd85c6109d7c00```
+```a50bcbf0ef744f6b7780685cfd2f41a13be4c921d4b401384efd85c6109d7c00```
 
 VirusTotal shows that the file hash has been flagged as malicious by 43 out of 70 vendors. 
 Name of the file is ```meta.dll``` and it matches YARA rule - INDICATOR_EXE_DotNET_Encrypted.
