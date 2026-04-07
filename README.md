@@ -94,10 +94,15 @@ Importatnst sections in the Details tab are:
 - Basic Properties - it includes information on the file like hash, type, size, etc.
 - History - this section presents time frame for the file creation, submission on VirusTotal, last analysis, etc.
 - Names - showes information on the different names the suspicious file was seen in the wild
-- Signature Info - shows if the file has been signed by any producent
+- Signature Info - this section is optional and shows if the file has been signed by any developers
 
 #### **VirusTotal investigation**
+We will investigate a list of file hashes:
 
+```4788925332fc6128c895b0e0736a1d7d90e3891f2abb456523cbf0c1ced7d1e2```
 
+```549ff37e56d372d076a3d11cd33af660568dc1048b1f4ecce77d8b334582c6c8```
+
+```a50bcbf0ef744f6b7780685cfd2f41a13be4c921d4b401384efd85c6109d7c00```
 
 #### **Findings**
