@@ -56,7 +56,7 @@ Linux distributions come with specific tools for each algorithm.
    
    - SHA-1: ```sha1sum filename.ext```
 
-#### **VirusTotal investigation**
+#### **VirusTotal navigation**
 
 Throughout the investigation I will be using  different file hashes, some of them will appear malicious and some benign.
 First Let's go to <a href="https://www.virustotal.com/gui/home/search">VirusTotal</a> page where we can see few options to select from. You can upload a file, paste a URL or search for IP address, domain or file hash.
@@ -88,6 +88,16 @@ Under summary header we can find few tabs which include the real data we are int
 - Community
 
 <img width="630" height="58" alt="image" src="https://github.com/user-attachments/assets/ed1c0ea5-c692-4005-bfc5-f124869e32d7" />
+
+<ins>Details Tab</ins>
+Importatnst sections in the Details tab are:
+- Basic Properties - it includes information on the file like hash, type, size, etc.
+- History - this section presents time frame for the file creation, submission on VirusTotal, last analysis, etc.
+- Names - showes information on the different names the suspicious file was seen in the wild
+- Signature Info - shows if the file has been signed by any producent
+
+#### **VirusTotal investigation**
+
 
 
 #### **Findings**
