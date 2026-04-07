@@ -101,12 +101,16 @@ Importatnst sections in the Details tab are:
 #### **VirusTotal investigation**
 We will investigate a list of file hashes:
 
+<img width="917" height="184" alt="image" src="https://github.com/user-attachments/assets/efad05c3-68e7-445d-9a6c-6f294d06000d" />
+
 ```
 4788925332fc6128c895b0e0736a1d7d90e3891f2abb456523cbf0c1ced7d1e2
 ```
 VirusTotal flags the file as malicious by 36 out of 70 vendors.
 Name of the file is ```bundle.exe``` which indicates that it is an executable file. It also matches multiple Crowdsourced Sigma rules and is labelled as ```trojan.polazert/msil```.
 A certificate has been explicitly revoked by the issuer.
+
+<img width="726" height="182" alt="image" src="https://github.com/user-attachments/assets/f1323f68-2a08-4f58-9f34-ef5720cb89e2" />
 
 ```
 a50bcbf0ef744f6b7780685cfd2f41a13be4c921d4b401384efd85c6109d7c00
@@ -120,11 +124,15 @@ One of the file names that has been flagged is malware.exe which clearly indicat
 
 In the "Community" tab section ```Contained in Collections``` or ```Contained in Graphs``` we can see association with known threat actor JuiceLedger.
 
+<img width="1325" height="179" alt="image" src="https://github.com/user-attachments/assets/0cbd2baa-a5bf-485b-a2cf-8411b5e78ccb" />
+
 ```
 a54ca708c3bbef76dbaec817a9bb36d8b52e492b293d2127cd5be284caabb6d1
 ```
 This file has been flagged by only 8 out of 59 vendors as malicious, but it matches multiple YARA and Crowdsourced Sigma rules with high and medium impact.
 Name of the file is ```WinRar_ISS.msi``` and is labelled as ```trojan.batload/batloader```.
+
+<img width="1481" height="182" alt="image" src="https://github.com/user-attachments/assets/eb10e4c8-9178-4168-b552-67b8e7d940c6" />
 
 ```
 0221bf1e1bd171c17527a863531518a95bcc025c87888e66b9512a5651073d16
