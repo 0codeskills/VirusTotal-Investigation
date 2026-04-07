@@ -56,6 +56,7 @@ Linux distributions come with specific tools for each algorithm.
    
    - SHA-1: ```sha1sum filename.ext```
 
+----------------------
 #### **VirusTotal navigation**
 
 Throughout the investigation I will be using  different file hashes, some of them will appear malicious and some benign.
@@ -96,15 +97,14 @@ Importatnst sections in the Details tab are:
 - Names - showes information on the different names the suspicious file was seen in the wild
 - Signature Info - this section is optional and shows if the file has been signed by any developers
 
+--------------------
 #### **VirusTotal investigation**
 We will investigate a list of file hashes:
 
 ```4788925332fc6128c895b0e0736a1d7d90e3891f2abb456523cbf0c1ced7d1e2```
 
--------
 ```549ff37e56d372d076a3d11cd33af660568dc1048b1f4ecce77d8b334582c6c8```
 
-------
 ```a50bcbf0ef744f6b7780685cfd2f41a13be4c921d4b401384efd85c6109d7c00```
 
 VirusTotal shows that the file hash has been flagged as malicious by 43 out of 70 vendors. 
@@ -116,5 +116,5 @@ One of the file names that has been flagged is malware.exe which clearly indicat
 
 In the "Community" tab section ```Contained in Collections``` or ```Contained in Graphs``` we can see association with known threat actor JuiceLedger.
 
-
+---------------------
 #### **Findings**
