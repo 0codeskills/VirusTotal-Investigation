@@ -104,10 +104,9 @@ We will investigate a list of file hashes:
 2. File hash - ```549ff37e56d372d076a3d11cd33af660568dc1048b1f4ecce77d8b334582c6c8```
 
 ------
+<ins>File hash</ins> - ```a50bcbf0ef744f6b7780685cfd2f41a13be4c921d4b401384efd85c6109d7c00```
 
-3. File hash - ```a50bcbf0ef744f6b7780685cfd2f41a13be4c921d4b401384efd85c6109d7c00```
-
-VirusTotal shows that file hash ```a50bcbf0ef744f6b7780685cfd2f41a13be4c921d4b401384efd85c6109d7c00``` has been flagged as malicious by 43 out of 70 vendors. 
+VirusTotal shows that the file hash has been flagged as malicious by 43 out of 70 vendors. 
 Name of the file is ```meta.dll``` and it matches YARA rule - INDICATOR_EXE_DotNET_Encrypted.
 Looking further we can see that it has been labelled as  ```trojan.msil/stealer``` also known as Information Stealing malware, which can steal passwords from computer or browser.
 
