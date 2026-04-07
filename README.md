@@ -136,6 +136,6 @@ It belongs to ```icedid``` malware family. File connects to a malicious domain `
 
 ---------------------
 #### **Summary**
-Through investigating various file hashes on VirusTotal, I have developed strong data analysis skills, specifically in filtering through complex and sometimes ambiguous datasets. I’ve learned that the ability to effectively pivot from a single Indicator of Compromise (IOC) to related artifacts—such as IP addresses and domain names—is critical for uncovering the broader scope of a threat.
+Through investigating various file hashes on VirusTotal, I have developed strong data analysis skills, specifically in filtering through complex and sometimes ambiguous datasets. I’ve learned that the ability to effectively pivot from a single Indicator of Compromise (IOC) to related artifacts — such as IP addresses and domain names — is critical for uncovering the broader scope of a threat.
 
 
